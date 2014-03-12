@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@import "compass";
+@import "foundation/clojure-sexy";
+@import "variables";
+@import "typeplate/typeplate";
+@import "utils";
+
+// -- end of includes
+
+html, body {
+    background: $color-bg-body;
+    height: 100%;
+}
+
+// Lists
+ul {
+    &.vertical-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+// Links
+a, a:visited{ color: $color-blue; }
+a:hover { color: $color-gray-dark; }

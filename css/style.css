@@ -1,0 +1,2166 @@
+@charset "UTF-8";
+/*! normalize.css v2.1.2 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+/* line 22, ../scss/foundation/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+/* line 32, ../scss/foundation/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 41, ../scss/foundation/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9.
+ * Hide the `template` element in IE, Safari, and Firefox < 22.
+ */
+/* line 52, ../scss/foundation/_normalize.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* line 56, ../scss/foundation/_normalize.scss */
+script {
+  display: none !important;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 70, ../scss/foundation/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 80, ../scss/foundation/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 92, ../scss/foundation/_normalize.scss */
+a {
+  background: transparent;
+}
+
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 100, ../scss/foundation/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 109, ../scss/foundation/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 122, ../scss/foundation/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 131, ../scss/foundation/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 140, ../scss/foundation/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+/* line 148, ../scss/foundation/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 156, ../scss/foundation/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 166, ../scss/foundation/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+/* line 178, ../scss/foundation/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+/* line 187, ../scss/foundation/_normalize.scss */
+pre {
+  white-space: pre-wrap;
+}
+
+/**
+ * Set consistent quote types.
+ */
+/* line 195, ../scss/foundation/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 203, ../scss/foundation/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 212, ../scss/foundation/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 219, ../scss/foundation/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 223, ../scss/foundation/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+/* line 235, ../scss/foundation/_normalize.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+/* line 243, ../scss/foundation/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+/* line 255, ../scss/foundation/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 267, ../scss/foundation/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 278, ../scss/foundation/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 292, ../scss/foundation/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 304, ../scss/foundation/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+/* line 316, ../scss/foundation/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 331, ../scss/foundation/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 341, ../scss/foundation/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ */
+/* line 351, ../scss/foundation/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 362, ../scss/foundation/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 375, ../scss/foundation/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 384, ../scss/foundation/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+/* line 394, ../scss/foundation/_normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 407, ../scss/foundation/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+
+Including Indian visits
+-----------------------
+
+(not including mobile, but they seem to rank 4,5 here)
+
+  1440x900        8,232
+  1920x1080       6,164
+  1366x768        5,635
+  1280x800        4,997           *
+  1280x720        3,794 (retina)  *
+  1680x1050       3,015
+  1920x1200       2,698
+
+  > 1280 wide   20,109
+  = 1280 wide    8,791   === 30% visitors
+
+
+Excluding Indian visits
+-----------------------
+
+  320x568         9,058           -
+  1440x900        6,635
+  1920x1080       5,234
+  320x480         4,972           -
+  1280x720        3,857 (retina)  *
+  1280x800        3,488           *
+  1366x768        2,968
+  1920x1200       2,672
+  1680x1050       2,624
+  768x1024        2,296           -
+  1280x1024       1,041           *
+  1600x900          929
+
+  > 1280 wide    21,062
+  = 1280 wide     8,368  === 28.4% visitors
+
+
+[-]: these are mobile devices, not counted
+     Wohoo! removing India makes mobiles top!
+*/
+/* line 287, ../scss/foundation/foundation/components/_global.scss */
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* html, */
+/* body { font-size: $base-font-size; } */
+/* body { */
+/*   background: $body-bg; */
+/*   color: $body-font-color; */
+/*   padding: 0; */
+/*   margin: 0; */
+/*   font-family: $body-font-family; */
+/*   font-weight: $body-font-weight; */
+/*   font-style: $body-font-style; */
+/*   line-height: 1; // Set to $base-line-height to take on browser default of 150% */
+/*   position: relative; */
+/*   cursor: $cursor-default-value; */
+/* } */
+/* a:hover { cursor: $cursor-pointer-value; } */
+/* line 311, ../scss/foundation/foundation/components/_global.scss */
+a:focus {
+  outline: none;
+}
+
+/* line 316, ../scss/foundation/foundation/components/_global.scss */
+img,
+object,
+embed {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 319, ../scss/foundation/foundation/components/_global.scss */
+object,
+embed {
+  height: 100%;
+}
+
+/* line 320, ../scss/foundation/foundation/components/_global.scss */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 326, ../scss/foundation/foundation/components/_global.scss */
+#map_canvas img,
+#map_canvas embed,
+#map_canvas object,
+.map_canvas img,
+.map_canvas embed,
+.map_canvas object {
+  max-width: none !important;
+}
+
+/* line 331, ../scss/foundation/foundation/components/_global.scss */
+.left {
+  float: left !important;
+}
+
+/* line 332, ../scss/foundation/foundation/components/_global.scss */
+.right {
+  float: right !important;
+}
+
+/* line 333, ../scss/foundation/foundation/components/_global.scss */
+.text-left {
+  text-align: left !important;
+}
+
+/* line 334, ../scss/foundation/foundation/components/_global.scss */
+.text-right {
+  text-align: right !important;
+}
+
+/* line 335, ../scss/foundation/foundation/components/_global.scss */
+.text-center {
+  text-align: center !important;
+}
+
+/* line 336, ../scss/foundation/foundation/components/_global.scss */
+.text-justify {
+  text-align: justify !important;
+}
+
+/* line 337, ../scss/foundation/foundation/components/_global.scss */
+.hide {
+  display: none;
+}
+
+/* line 343, ../scss/foundation/foundation/components/_global.scss */
+.antialiased {
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/* line 348, ../scss/foundation/foundation/components/_global.scss */
+img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 358, ../scss/foundation/foundation/components/_global.scss */
+textarea {
+  height: auto;
+  min-height: 50px;
+}
+
+/* line 361, ../scss/foundation/foundation/components/_global.scss */
+select {
+  width: 100%;
+}
+
+/* Grid HTML Classes */
+/* line 116, ../scss/foundation/foundation/components/_grid.scss */
+.row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 80em;
+  *zoom: 1;
+}
+/* line 121, ../scss/foundation/foundation/components/_global.scss */
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+/* line 122, ../scss/foundation/foundation/components/_global.scss */
+.row:after {
+  clear: both;
+}
+/* line 121, ../scss/foundation/foundation/components/_grid.scss */
+.row.collapse > .column,
+.row.collapse > .columns {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  float: left;
+}
+/* line 123, ../scss/foundation/foundation/components/_grid.scss */
+.row.collapse .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 126, ../scss/foundation/foundation/components/_grid.scss */
+.row .row {
+  width: auto;
+  margin-left: -0.9375em;
+  margin-right: -0.9375em;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: none;
+  *zoom: 1;
+}
+/* line 121, ../scss/foundation/foundation/components/_global.scss */
+.row .row:before, .row .row:after {
+  content: " ";
+  display: table;
+}
+/* line 122, ../scss/foundation/foundation/components/_global.scss */
+.row .row:after {
+  clear: both;
+}
+/* line 127, ../scss/foundation/foundation/components/_grid.scss */
+.row .row.collapse {
+  width: auto;
+  margin: 0;
+  max-width: none;
+  *zoom: 1;
+}
+/* line 121, ../scss/foundation/foundation/components/_global.scss */
+.row .row.collapse:before, .row .row.collapse:after {
+  content: " ";
+  display: table;
+}
+/* line 122, ../scss/foundation/foundation/components/_global.scss */
+.row .row.collapse:after {
+  clear: both;
+}
+
+/* line 132, ../scss/foundation/foundation/components/_grid.scss */
+.column,
+.columns {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+}
+
+@media only screen {
+  /* line 137, ../scss/foundation/foundation/components/_grid.scss */
+  .column,
+  .columns {
+    position: relative;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    float: left;
+  }
+
+  /* line 140, ../scss/foundation/foundation/components/_grid.scss */
+  .small-1 {
+    position: relative;
+    width: 8.33333%;
+  }
+
+  /* line 140, ../scss/foundation/foundation/components/_grid.scss */
+  .small-2 {
+    position: relative;
+    width: 16.66667%;
+  }
+
+  /* line 140, ../scss/foundation/foundation/components/_grid.scss */
+  .small-3 {
+    position: relative;
+    width: 25%;
+  }
+
+  /* line 140, ../scss/foundation/foundation/components/_grid.scss */
+  .small-4 {
+    position: relative;
+    width: 33.33333%;
+  }
+
+  /* line 140, ../scss/foundation/foundation/components/_grid.scss */
+  .small-5 {
+    position: relative;
+    width: 41.66667%;
+  }
+
+  /* line 140, ../scss/foundation/foundation/components/_grid.scss */
+  .small-6 {
+    position: relative;
+    width: 50%;
+  }
+
+  /* line 140, ../scss/foundation/foundation/components/_grid.scss */
+  .small-7 {
+    position: relative;
+    width: 58.33333%;
+  }
+
+  /* line 140, ../scss/foundation/foundation/components/_grid.scss */
+  .small-8 {
+    position: relative;
+    width: 66.66667%;
+  }
+
+  /* line 140, ../scss/foundation/foundation/components/_grid.scss */
+  .small-9 {
+    position: relative;
+    width: 75%;
+  }
+
+  /* line 140, ../scss/foundation/foundation/components/_grid.scss */
+  .small-10 {
+    position: relative;
+    width: 83.33333%;
+  }
+
+  /* line 140, ../scss/foundation/foundation/components/_grid.scss */
+  .small-11 {
+    position: relative;
+    width: 91.66667%;
+  }
+
+  /* line 140, ../scss/foundation/foundation/components/_grid.scss */
+  .small-12 {
+    position: relative;
+    width: 100%;
+  }
+
+  /* line 144, ../scss/foundation/foundation/components/_grid.scss */
+  .small-offset-0 {
+    position: relative;
+    margin-left: 0%;
+  }
+
+  /* line 144, ../scss/foundation/foundation/components/_grid.scss */
+  .small-offset-1 {
+    position: relative;
+    margin-left: 8.33333%;
+  }
+
+  /* line 144, ../scss/foundation/foundation/components/_grid.scss */
+  .small-offset-2 {
+    position: relative;
+    margin-left: 16.66667%;
+  }
+
+  /* line 144, ../scss/foundation/foundation/components/_grid.scss */
+  .small-offset-3 {
+    position: relative;
+    margin-left: 25%;
+  }
+
+  /* line 144, ../scss/foundation/foundation/components/_grid.scss */
+  .small-offset-4 {
+    position: relative;
+    margin-left: 33.33333%;
+  }
+
+  /* line 144, ../scss/foundation/foundation/components/_grid.scss */
+  .small-offset-5 {
+    position: relative;
+    margin-left: 41.66667%;
+  }
+
+  /* line 144, ../scss/foundation/foundation/components/_grid.scss */
+  .small-offset-6 {
+    position: relative;
+    margin-left: 50%;
+  }
+
+  /* line 144, ../scss/foundation/foundation/components/_grid.scss */
+  .small-offset-7 {
+    position: relative;
+    margin-left: 58.33333%;
+  }
+
+  /* line 144, ../scss/foundation/foundation/components/_grid.scss */
+  .small-offset-8 {
+    position: relative;
+    margin-left: 66.66667%;
+  }
+
+  /* line 144, ../scss/foundation/foundation/components/_grid.scss */
+  .small-offset-9 {
+    position: relative;
+    margin-left: 75%;
+  }
+
+  /* line 144, ../scss/foundation/foundation/components/_grid.scss */
+  .small-offset-10 {
+    position: relative;
+    margin-left: 83.33333%;
+  }
+
+  /* line 147, ../scss/foundation/foundation/components/_grid.scss */
+  [class*="column"] + [class*="column"]:last-child {
+    float: right;
+  }
+
+  /* line 148, ../scss/foundation/foundation/components/_grid.scss */
+  [class*="column"] + [class*="column"].end {
+    float: left;
+  }
+
+  /* line 151, ../scss/foundation/foundation/components/_grid.scss */
+  .column.small-centered,
+  .columns.small-centered {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+  }
+}
+/* Styles for screens that are atleast 768px; */
+@media only screen and (min-width: 768px) {
+  /* line 158, ../scss/foundation/foundation/components/_grid.scss */
+  .large-1 {
+    position: relative;
+    width: 8.33333%;
+  }
+
+  /* line 158, ../scss/foundation/foundation/components/_grid.scss */
+  .large-2 {
+    position: relative;
+    width: 16.66667%;
+  }
+
+  /* line 158, ../scss/foundation/foundation/components/_grid.scss */
+  .large-3 {
+    position: relative;
+    width: 25%;
+  }
+
+  /* line 158, ../scss/foundation/foundation/components/_grid.scss */
+  .large-4 {
+    position: relative;
+    width: 33.33333%;
+  }
+
+  /* line 158, ../scss/foundation/foundation/components/_grid.scss */
+  .large-5 {
+    position: relative;
+    width: 41.66667%;
+  }
+
+  /* line 158, ../scss/foundation/foundation/components/_grid.scss */
+  .large-6 {
+    position: relative;
+    width: 50%;
+  }
+
+  /* line 158, ../scss/foundation/foundation/components/_grid.scss */
+  .large-7 {
+    position: relative;
+    width: 58.33333%;
+  }
+
+  /* line 158, ../scss/foundation/foundation/components/_grid.scss */
+  .large-8 {
+    position: relative;
+    width: 66.66667%;
+  }
+
+  /* line 158, ../scss/foundation/foundation/components/_grid.scss */
+  .large-9 {
+    position: relative;
+    width: 75%;
+  }
+
+  /* line 158, ../scss/foundation/foundation/components/_grid.scss */
+  .large-10 {
+    position: relative;
+    width: 83.33333%;
+  }
+
+  /* line 158, ../scss/foundation/foundation/components/_grid.scss */
+  .large-11 {
+    position: relative;
+    width: 91.66667%;
+  }
+
+  /* line 158, ../scss/foundation/foundation/components/_grid.scss */
+  .large-12 {
+    position: relative;
+    width: 100%;
+  }
+
+  /* line 162, ../scss/foundation/foundation/components/_grid.scss */
+  .row .large-offset-0 {
+    position: relative;
+    margin-left: 0%;
+  }
+
+  /* line 162, ../scss/foundation/foundation/components/_grid.scss */
+  .row .large-offset-1 {
+    position: relative;
+    margin-left: 8.33333%;
+  }
+
+  /* line 162, ../scss/foundation/foundation/components/_grid.scss */
+  .row .large-offset-2 {
+    position: relative;
+    margin-left: 16.66667%;
+  }
+
+  /* line 162, ../scss/foundation/foundation/components/_grid.scss */
+  .row .large-offset-3 {
+    position: relative;
+    margin-left: 25%;
+  }
+
+  /* line 162, ../scss/foundation/foundation/components/_grid.scss */
+  .row .large-offset-4 {
+    position: relative;
+    margin-left: 33.33333%;
+  }
+
+  /* line 162, ../scss/foundation/foundation/components/_grid.scss */
+  .row .large-offset-5 {
+    position: relative;
+    margin-left: 41.66667%;
+  }
+
+  /* line 162, ../scss/foundation/foundation/components/_grid.scss */
+  .row .large-offset-6 {
+    position: relative;
+    margin-left: 50%;
+  }
+
+  /* line 162, ../scss/foundation/foundation/components/_grid.scss */
+  .row .large-offset-7 {
+    position: relative;
+    margin-left: 58.33333%;
+  }
+
+  /* line 162, ../scss/foundation/foundation/components/_grid.scss */
+  .row .large-offset-8 {
+    position: relative;
+    margin-left: 66.66667%;
+  }
+
+  /* line 162, ../scss/foundation/foundation/components/_grid.scss */
+  .row .large-offset-9 {
+    position: relative;
+    margin-left: 75%;
+  }
+
+  /* line 162, ../scss/foundation/foundation/components/_grid.scss */
+  .row .large-offset-10 {
+    position: relative;
+    margin-left: 83.33333%;
+  }
+
+  /* line 162, ../scss/foundation/foundation/components/_grid.scss */
+  .row .large-offset-11 {
+    position: relative;
+    margin-left: 91.66667%;
+  }
+
+  /* line 166, ../scss/foundation/foundation/components/_grid.scss */
+  .push-1 {
+    position: relative;
+    left: 8.33333%;
+    right: auto;
+  }
+
+  /* line 167, ../scss/foundation/foundation/components/_grid.scss */
+  .pull-1 {
+    position: relative;
+    right: 8.33333%;
+    left: auto;
+  }
+
+  /* line 166, ../scss/foundation/foundation/components/_grid.scss */
+  .push-2 {
+    position: relative;
+    left: 16.66667%;
+    right: auto;
+  }
+
+  /* line 167, ../scss/foundation/foundation/components/_grid.scss */
+  .pull-2 {
+    position: relative;
+    right: 16.66667%;
+    left: auto;
+  }
+
+  /* line 166, ../scss/foundation/foundation/components/_grid.scss */
+  .push-3 {
+    position: relative;
+    left: 25%;
+    right: auto;
+  }
+
+  /* line 167, ../scss/foundation/foundation/components/_grid.scss */
+  .pull-3 {
+    position: relative;
+    right: 25%;
+    left: auto;
+  }
+
+  /* line 166, ../scss/foundation/foundation/components/_grid.scss */
+  .push-4 {
+    position: relative;
+    left: 33.33333%;
+    right: auto;
+  }
+
+  /* line 167, ../scss/foundation/foundation/components/_grid.scss */
+  .pull-4 {
+    position: relative;
+    right: 33.33333%;
+    left: auto;
+  }
+
+  /* line 166, ../scss/foundation/foundation/components/_grid.scss */
+  .push-5 {
+    position: relative;
+    left: 41.66667%;
+    right: auto;
+  }
+
+  /* line 167, ../scss/foundation/foundation/components/_grid.scss */
+  .pull-5 {
+    position: relative;
+    right: 41.66667%;
+    left: auto;
+  }
+
+  /* line 166, ../scss/foundation/foundation/components/_grid.scss */
+  .push-6 {
+    position: relative;
+    left: 50%;
+    right: auto;
+  }
+
+  /* line 167, ../scss/foundation/foundation/components/_grid.scss */
+  .pull-6 {
+    position: relative;
+    right: 50%;
+    left: auto;
+  }
+
+  /* line 166, ../scss/foundation/foundation/components/_grid.scss */
+  .push-7 {
+    position: relative;
+    left: 58.33333%;
+    right: auto;
+  }
+
+  /* line 167, ../scss/foundation/foundation/components/_grid.scss */
+  .pull-7 {
+    position: relative;
+    right: 58.33333%;
+    left: auto;
+  }
+
+  /* line 166, ../scss/foundation/foundation/components/_grid.scss */
+  .push-8 {
+    position: relative;
+    left: 66.66667%;
+    right: auto;
+  }
+
+  /* line 167, ../scss/foundation/foundation/components/_grid.scss */
+  .pull-8 {
+    position: relative;
+    right: 66.66667%;
+    left: auto;
+  }
+
+  /* line 166, ../scss/foundation/foundation/components/_grid.scss */
+  .push-9 {
+    position: relative;
+    left: 75%;
+    right: auto;
+  }
+
+  /* line 167, ../scss/foundation/foundation/components/_grid.scss */
+  .pull-9 {
+    position: relative;
+    right: 75%;
+    left: auto;
+  }
+
+  /* line 166, ../scss/foundation/foundation/components/_grid.scss */
+  .push-10 {
+    position: relative;
+    left: 83.33333%;
+    right: auto;
+  }
+
+  /* line 167, ../scss/foundation/foundation/components/_grid.scss */
+  .pull-10 {
+    position: relative;
+    right: 83.33333%;
+    left: auto;
+  }
+
+  /* line 166, ../scss/foundation/foundation/components/_grid.scss */
+  .push-11 {
+    position: relative;
+    left: 91.66667%;
+    right: auto;
+  }
+
+  /* line 167, ../scss/foundation/foundation/components/_grid.scss */
+  .pull-11 {
+    position: relative;
+    right: 91.66667%;
+    left: auto;
+  }
+
+  /* line 171, ../scss/foundation/foundation/components/_grid.scss */
+  .column.large-centered,
+  .columns.large-centered {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+  }
+
+  /* line 174, ../scss/foundation/foundation/components/_grid.scss */
+  .column.large-uncentered,
+  .columns.large-uncentered {
+    margin-left: 0;
+    margin-right: 0;
+    float: left !important;
+  }
+
+  /* line 181, ../scss/foundation/foundation/components/_grid.scss */
+  .column.large-uncentered.opposite,
+  .columns.large-uncentered.opposite {
+    float: right !important;
+  }
+}
+/* "foundation/components/visibility", */
+/* Foundation Block Grids for below small breakpoint */
+@media only screen {
+  /* line 50, ../scss/foundation/foundation/components/_block-grid.scss */
+  [class*="block-grid-"] {
+    display: block;
+    padding: 0;
+    margin: 0 -0.625em;
+    *zoom: 1;
+  }
+  /* line 121, ../scss/foundation/foundation/components/_global.scss */
+  [class*="block-grid-"]:before, [class*="block-grid-"]:after {
+    content: " ";
+    display: table;
+  }
+  /* line 122, ../scss/foundation/foundation/components/_global.scss */
+  [class*="block-grid-"]:after {
+    clear: both;
+  }
+  /* line 27, ../scss/foundation/foundation/components/_block-grid.scss */
+  [class*="block-grid-"] > li {
+    display: inline;
+    height: auto;
+    float: left;
+    padding: 0 0.625em 1.25em;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-1 > li {
+    width: 100%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-1 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-1 > li:nth-of-type(1n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-2 > li {
+    width: 50%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-2 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-2 > li:nth-of-type(2n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-3 > li {
+    width: 33.33333%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-3 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-3 > li:nth-of-type(3n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-4 > li {
+    width: 25%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-4 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-4 > li:nth-of-type(4n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-5 > li {
+    width: 20%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-5 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-5 > li:nth-of-type(5n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-6 > li {
+    width: 16.66667%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-6 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-6 > li:nth-of-type(6n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-7 > li {
+    width: 14.28571%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-7 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-7 > li:nth-of-type(7n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-8 > li {
+    width: 12.5%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-8 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-8 > li:nth-of-type(8n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-9 > li {
+    width: 11.11111%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-9 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-9 > li:nth-of-type(9n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-10 > li {
+    width: 10%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-10 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-10 > li:nth-of-type(10n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-11 > li {
+    width: 9.09091%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-11 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-11 > li:nth-of-type(11n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-12 > li {
+    width: 8.33333%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-12 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-12 > li:nth-of-type(12n+1) {
+    clear: both;
+  }
+}
+/* Foundation Block Grids for above small breakpoint */
+@media only screen and (min-width: 768px) {
+  /* Remove small grid clearing */
+  /* line 63, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-1 > li:nth-of-type(1n+1) {
+    clear: none;
+  }
+
+  /* line 63, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-2 > li:nth-of-type(2n+1) {
+    clear: none;
+  }
+
+  /* line 63, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-3 > li:nth-of-type(3n+1) {
+    clear: none;
+  }
+
+  /* line 63, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-4 > li:nth-of-type(4n+1) {
+    clear: none;
+  }
+
+  /* line 63, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-5 > li:nth-of-type(5n+1) {
+    clear: none;
+  }
+
+  /* line 63, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-6 > li:nth-of-type(6n+1) {
+    clear: none;
+  }
+
+  /* line 63, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-7 > li:nth-of-type(7n+1) {
+    clear: none;
+  }
+
+  /* line 63, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-8 > li:nth-of-type(8n+1) {
+    clear: none;
+  }
+
+  /* line 63, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-9 > li:nth-of-type(9n+1) {
+    clear: none;
+  }
+
+  /* line 63, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-10 > li:nth-of-type(10n+1) {
+    clear: none;
+  }
+
+  /* line 63, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-11 > li:nth-of-type(11n+1) {
+    clear: none;
+  }
+
+  /* line 63, ../scss/foundation/foundation/components/_block-grid.scss */
+  .small-block-grid-12 > li:nth-of-type(12n+1) {
+    clear: none;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-1 > li {
+    width: 100%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-1 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-1 > li:nth-of-type(1n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-2 > li {
+    width: 50%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-2 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-2 > li:nth-of-type(2n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-3 > li {
+    width: 33.33333%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-3 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-3 > li:nth-of-type(3n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-4 > li {
+    width: 25%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-4 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-4 > li:nth-of-type(4n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-5 > li {
+    width: 20%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-5 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-5 > li:nth-of-type(5n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-6 > li {
+    width: 16.66667%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-6 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-6 > li:nth-of-type(6n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-7 > li {
+    width: 14.28571%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-7 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-7 > li:nth-of-type(7n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-8 > li {
+    width: 12.5%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-8 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-8 > li:nth-of-type(8n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-9 > li {
+    width: 11.11111%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-9 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-9 > li:nth-of-type(9n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-10 > li {
+    width: 10%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-10 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-10 > li:nth-of-type(10n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-11 > li {
+    width: 9.09091%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-11 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-11 > li:nth-of-type(11n+1) {
+    clear: both;
+  }
+
+  /* line 36, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-12 > li {
+    width: 8.33333%;
+    padding: 0 0.625em 1.25em;
+  }
+  /* line 40, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-12 > li:nth-of-type(n) {
+    clear: none;
+  }
+  /* line 41, ../scss/foundation/foundation/components/_block-grid.scss */
+  .large-block-grid-12 > li:nth-of-type(12n+1) {
+    clear: both;
+  }
+}
+/* "foundation/components/type", */
+/* "foundation/components/buttons", */
+/* "foundation/components/forms", */
+/* "foundation/components/button-groups", */
+/* "foundation/components/dropdown-buttons", */
+/* "foundation/components/split-buttons", */
+/* "foundation/components/flex-video", */
+/* "foundation/components/section", */
+/* "foundation/components/top-bar", */
+/* "foundation/components/orbit", */
+/* "foundation/components/reveal", */
+/* "foundation/components/joyride", */
+/* "foundation/components/clearing", */
+/* "foundation/components/alert-boxes", */
+/* "foundation/components/breadcrumbs", */
+/* "foundation/components/custom-forms", */
+/* "foundation/components/keystrokes", */
+/* "foundation/components/labels", */
+/* Inline Lists */
+/* line 49, ../scss/foundation/foundation/components/_inline-lists.scss */
+.inline-list {
+  margin: 0 auto 1.0625em auto;
+  margin-left: -1.375em;
+  margin-right: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+/* line 36, ../scss/foundation/foundation/components/_inline-lists.scss */
+.inline-list > li {
+  list-style: none;
+  float: left;
+  margin-left: 1.375em;
+  display: block;
+}
+/* line 41, ../scss/foundation/foundation/components/_inline-lists.scss */
+.inline-list > li > * {
+  display: block;
+}
+
+/* "foundation/components/pagination", */
+/* "foundation/components/panels", */
+/* "foundation/components/pricing-tables", */
+/* "foundation/components/progress-bars", */
+/* "foundation/components/side-nav", */
+/* "foundation/components/sub-nav", */
+/* "foundation/components/switch", */
+/* "foundation/components/magellan", */
+/* @import "foundation/components/tables"; */
+/* "foundation/components/thumbs", */
+/* "foundation/components/tooltips", */
+/* "foundation/components/dropdown"; */
+/* $tera: 110; */
+/* $giga: 76; */
+/* $mega: 68; */
+/* $alpha: 47;   // H1 */
+/* $beta: 42;    // H2 */
+/* $gamma: 29;   // H3 */
+/* $delta: 26;   // ... */
+/* $epsilon: 18; */
+/* $zeta: 16; */
+/* $small: 14; */
+/* $tiny: 12; */
+/*
+ *
+.||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||.
+
+    .                                      '||            .
+  .||.  .... ... ... ...    ....  ... ...   ||   ....   .||.    ....
+   ||    '|.  |   ||'  || .|...||  ||'  ||  ||  '' .||   ||   .|...||
+   ||     '|.|    ||    | ||       ||    |  ||  .|' ||   ||   ||
+   '|.'    '|     ||...'   '|...'  ||...'  .||. '|..'|'  '|.'  '|...'
+        .. |      ||               ||
+         ''      ''''             ''''      A Typographic Starter Kit
+
+  URL ........... http://typeplate.com
+  VERSION ....... 1.1.1
+  Github ........ https://github.com/typeplate/typeplate.github.io
+  AUTHORS ....... Dennis Gaebel (@gryghostvisuals) & Zachary Kain (@zakkain)
+  LICENSE ....... Creative Commmons Attribution 3.0
+  LICENSE URL ... http://creativecommons.org/licenses/by/3.0
+
+ .||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||.
+ *
+ */
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
+  unicode-range: U+0026;
+}
+
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia");
+  unicode-range: U+270C;
+}
+
+@font-face {
+  font-family: "quillicons-regular";
+  src: url('/css/fonts/quillicons-regular.ttf') format('truetype'), url('/css/fonts/quillicons-regular.woff') format('woff'), url('/css/fonts/quillicons-regular.eot#iefix') format('embedded-opentype'), url(/quillicons-regular.svg#quillicons-regular) format('svg');
+}
+
+/* line 386, ../scss/typeplate/_typeplate.scss */
+body {
+  word-wrap: break-word;
+}
+
+/* line 390, ../scss/typeplate/_typeplate.scss */
+pre code {
+  word-wrap: normal;
+}
+
+/**
+ * Dropcap Sass @include
+ * Use the following Sass @include with any selector you feel necessary.
+ *
+    @include dropcap($dropcap-float-position, $dropcap-font-size, $dropcap-font-family, $dropcap-txt-indent, $dropcap-margin, $dropcap-padding, $dropcap-color, $dropcap-line-height, $dropcap-bg);
+ *
+ * Extend this object into your custom stylesheet. Let the variables do the work.
+ *
+ */
+/* line 515, ../scss/typeplate/_typeplate.scss */
+html {
+  font: 400 100%/1.5 "proxima-nova", "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 523, ../scss/typeplate/_typeplate.scss */
+body {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+  color: #707070;
+}
+
+/* line 534, ../scss/typeplate/_typeplate.scss */
+small {
+  font-size: 65%;
+}
+
+/* line 557, ../scss/typeplate/_typeplate.scss */
+h1, h2, h3, h4, h5, h6 {
+  text-rendering: optimizeLegibility;
+  line-height: 1;
+  margin-top: 0;
+}
+
+/* line 572, ../scss/typeplate/_typeplate.scss */
+.tera {
+  font-size: 90px ;
+  font-size: 5.625rem ;
+  margin-bottom: 0.26667rem;
+}
+
+/* line 572, ../scss/typeplate/_typeplate.scss */
+.giga {
+  font-size: 72px ;
+  font-size: 4.5rem ;
+  margin-bottom: 0.33333rem;
+}
+
+/* line 572, ../scss/typeplate/_typeplate.scss */
+.mega {
+  font-size: 60px ;
+  font-size: 3.75rem ;
+  margin-bottom: 0.4rem;
+}
+
+/* line 572, ../scss/typeplate/_typeplate.scss */
+.alpha, h1 {
+  font-size: 48px ;
+  font-size: 3rem ;
+  margin-bottom: 0.5rem;
+}
+
+/* line 572, ../scss/typeplate/_typeplate.scss */
+.beta, h2 {
+  font-size: 36px ;
+  font-size: 2.25rem ;
+  margin-bottom: 0.66667rem;
+}
+
+/* line 572, ../scss/typeplate/_typeplate.scss */
+.gamma, h3 {
+  font-size: 24px ;
+  font-size: 1.5rem ;
+  margin-bottom: 1rem;
+}
+
+/* line 572, ../scss/typeplate/_typeplate.scss */
+.delta, h4 {
+  font-size: 21px ;
+  font-size: 1.3125rem ;
+  margin-bottom: 1.14286rem;
+}
+
+/* line 572, ../scss/typeplate/_typeplate.scss */
+.epsilon, h5 {
+  font-size: 16px ;
+  font-size: 1rem ;
+  margin-bottom: 1.5rem;
+}
+
+/* line 572, ../scss/typeplate/_typeplate.scss */
+.zeta, h6 {
+  font-size: 14px ;
+  font-size: 0.875rem ;
+  margin-bottom: 1.71429rem;
+}
+
+/* line 572, ../scss/typeplate/_typeplate.scss */
+.small {
+  font-size: 12px ;
+  font-size: 0.75rem ;
+  margin-bottom: 2rem;
+}
+
+/* line 572, ../scss/typeplate/_typeplate.scss */
+.tiny {
+  font-size: 10px ;
+  font-size: 0.625rem ;
+  margin-bottom: 2.4rem;
+}
+
+/* line 612, ../scss/typeplate/_typeplate.scss */
+p {
+  margin: auto auto 24px;
+}
+
+/* line 638, ../scss/typeplate/_typeplate.scss */
+abbr,
+acronym,
+blockquote,
+code,
+dir,
+kbd,
+listing,
+plaintext,
+q,
+samp,
+tt,
+var,
+xmp {
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -o-hyphens: none;
+  hyphens: none;
+}
+
+/* line 646, ../scss/typeplate/_typeplate.scss */
+pre code {
+  white-space: -moz-pre-wrap;
+  white-space: pre-wrap;
+}
+
+/* line 651, ../scss/typeplate/_typeplate.scss */
+pre {
+  white-space: pre;
+}
+
+/* line 657, ../scss/typeplate/_typeplate.scss */
+code, .codehilite pre {
+  white-space: pre;
+  font-family: "Source Code Pro", Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
+}
+
+/**
+ * Abbreviations Markup
+ *
+    <abbr title="hyper text markup language">HMTL</abbr>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/* line 673, ../scss/typeplate/_typeplate.scss */
+abbr {
+  font-variant: small-caps;
+  font-weight: 600;
+  text-transform: lowercase;
+  color: gray;
+}
+/* line 675, ../scss/typeplate/_typeplate.scss */
+abbr[title]:hover {
+  cursor: help;
+}
+
+/* line 689, ../scss/typeplate/_typeplate.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #353535;
+  font-weight: 600;
+}
+
+/* line 696, ../scss/typeplate/_typeplate.scss */
+b, strong {
+  font-weight: 600;
+}
+
+/* line 705, ../scss/typeplate/_typeplate.scss */
+p + .drop-cap {
+  text-indent: 0;
+  margin-top: 0;
+}
+
+/* line 417, ../scss/typeplate/_typeplate.scss */
+.drop-cap:first-letter {
+  float: left;
+  margin: inherit;
+  padding: inherit;
+  font-size: 4em;
+  font-family: inherit;
+  line-height: 1;
+  text-indent: 0;
+  background: transparent;
+  color: inherit;
+}
+
+/**
+ * Lining Definition Style Markup
+ *
+    <dl class="lining">
+        <dt><b></b></dt>
+        <dd></dd>
+    </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/* line 456, ../scss/typeplate/_typeplate.scss */
+.lining dt,
+.lining dd {
+  display: inline;
+  margin: 0;
+}
+/* line 463, ../scss/typeplate/_typeplate.scss */
+.lining dt + dt:before,
+.lining dd + dt:before {
+  content: "\A";
+  white-space: pre;
+}
+/* line 471, ../scss/typeplate/_typeplate.scss */
+.lining dd + dd:before {
+  content: ", ";
+}
+/* line 475, ../scss/typeplate/_typeplate.scss */
+.lining dd:before {
+  content: ": ";
+  margin-left: -0.2rem;
+}
+
+/**
+ * Dictionary Definition Style Markup
+ *
+    <dl class="dictionary-style">
+        <dt><b></b></dt>
+            <dd></dd>
+    </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/* line 483, ../scss/typeplate/_typeplate.scss */
+.dictionary-style dt {
+  display: inline;
+  counter-reset: definitions;
+}
+/* line 487, ../scss/typeplate/_typeplate.scss */
+.dictionary-style dt + dt:before {
+  content: ", ";
+  margin-left: -0.2rem;
+}
+/* line 493, ../scss/typeplate/_typeplate.scss */
+.dictionary-style dd {
+  display: block;
+  counter-increment: definitions;
+}
+/* line 496, ../scss/typeplate/_typeplate.scss */
+.dictionary-style dd:before {
+  content: counter(definitions,decimal) ". ";
+}
+
+/**
+ * Blockquote Markup
+ *
+        <figure>
+            <blockquote cite="">
+                <p></p>
+            </blockquote>
+            <figcaption>
+                <cite>
+                    <small><a href=""></a></small>
+                </cite>
+            </figcaption>
+        </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Pull Quotes Markup
+ *
+    <aside class="pull-quote">
+        <blockquote>
+            <p></p>
+        </blockquote>
+    </aside>
+ *
+ * Extend this object into your custom stylesheet.
+ *
+ */
+/* line 789, ../scss/typeplate/_typeplate.scss */
+.pull-quote {
+  position: relative;
+  padding: 1em;
+}
+/* line 358, ../scss/typeplate/_typeplate.scss */
+.pull-quote:before, .pull-quote:after {
+  height: 1em;
+  opacity: 0.5;
+  position: absolute;
+  font-size: 4em;
+  color: #dc976e;
+}
+/* line 365, ../scss/typeplate/_typeplate.scss */
+.pull-quote:before {
+  content: '“';
+  top: 0;
+  left: 0;
+}
+/* line 370, ../scss/typeplate/_typeplate.scss */
+.pull-quote:after {
+  content: '”';
+  bottom: 0;
+  right: 0;
+}
+
+/**
+ * Figures Markup
+ *
+    <figure>
+        <figcaption>
+            <strong>Fig. 4.2 | </strong>Type Anatomy, an excerpt from Mark Boulton's book<cite title="http://designingfortheweb.co.uk/book/part3/part3_chapter11.php">"Designing for the Web"</cite>
+        </figcaption>
+    </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Footnote Markup : Replace 'X' with your unique number for each footnote
+ *
+    <article>
+        <p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p>
+        <footer>
+            <ol class="foot-notes">
+                <li id="fn-itemX"><a href="#fn-returnX">↩</a></li>
+            </ol>
+        </footer>
+    </article>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/* line 121, ../scss/_utils.scss */
+.media-object {
+  *zoom: 1;
+}
+/* line 121, ../scss/foundation/foundation/components/_global.scss */
+.media-object:before, .media-object:after {
+  content: " ";
+  display: table;
+}
+/* line 122, ../scss/foundation/foundation/components/_global.scss */
+.media-object:after {
+  clear: both;
+}
+/* line 123, ../scss/_utils.scss */
+.media-object > .media {
+  float: left;
+  margin-right: 1.875em;
+}
+@media only screen and (max-width: 767px) {
+  /* line 123, ../scss/_utils.scss */
+  .media-object > .media {
+    margin-right: 0.9375em;
+  }
+}
+/* line 129, ../scss/_utils.scss */
+.media-object > .media-content {
+  overflow: hidden;
+}
+/* line 132, ../scss/_utils.scss */
+.media-object.right > .media {
+  float: right;
+  margin-left: 1.875em;
+  margin-right: 0;
+}
+@media only screen and (max-width: 767px) {
+  /* line 132, ../scss/_utils.scss */
+  .media-object.right > .media {
+    margin-left: 0.9375em;
+  }
+}
+
+@-webkit-keyframes stripeAnimation {
+  /* line 144, ../scss/_utils.scss */
+  from {
+    background-position: 0 0;
+  }
+
+  /* line 145, ../scss/_utils.scss */
+  to {
+    background-position: 100% 50%;
+  }
+}
+
+@-moz-keyframes stripeAnimation {
+  /* line 149, ../scss/_utils.scss */
+  from {
+    background-position: 0 0;
+  }
+
+  /* line 150, ../scss/_utils.scss */
+  to {
+    background-position: 100% 0;
+  }
+}
+
+@-ms-keyframes stripeAnimation {
+  /* line 154, ../scss/_utils.scss */
+  from {
+    background-position: 0 0;
+  }
+
+  /* line 155, ../scss/_utils.scss */
+  to {
+    background-position: 100% 0;
+  }
+}
+
+@-o-keyframes stripeAnimation {
+  /* line 159, ../scss/_utils.scss */
+  from {
+    background-position: 0 0;
+  }
+
+  /* line 160, ../scss/_utils.scss */
+  to {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes stripeAnimation {
+  /* line 164, ../scss/_utils.scss */
+  from {
+    background-position: 0 0;
+  }
+
+  /* line 165, ../scss/_utils.scss */
+  to {
+    background-position: 100% 0;
+  }
+}
+
+/* line 10, ../scss/style.scss */
+html, body {
+  background: #f0f5fa;
+  height: 100%;
+}
+
+/* line 17, ../scss/style.scss */
+ul.vertical-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 25, ../scss/style.scss */
+a, a:visited {
+  color: #477db3;
+}
+
+/* line 26, ../scss/style.scss */
+a:hover {
+  color: #454545;
+}
