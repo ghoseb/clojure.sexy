@@ -196,7 +196,7 @@ Excluding Indian visits
 // 1350 was a bad choice, ended up filling 3 cols to satisfy resolution
 // We switch to 1280 wide grid now
 
-$row-width-px: 1280px;
+$row-width-px: 1100px;
 $row-width: em-calc(strip-unit($row-width-px));
 $column-gutter: em-calc(30); // golden relationship with gutterless col width
 $total-columns: 12;

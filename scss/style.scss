@@ -24,3 +24,59 @@ ul {
 // Links
 a, a:visited{ color: $color-blue; }
 a:hover { color: $color-gray-dark; }
+
+.columns {
+//    outline: 1px solid red;
+}
+
+.top-head {
+    padding-top: $column-gutter;
+    .logo {
+        img {
+            width: 207px;
+            height: 62px;
+        }
+    }
+    .sexiness {
+        float: right;
+        width: 253px;
+        height: 18px;
+        margin-top: $gutter-mid;
+    }
+}
+
+.header {
+    margin-top: $column-gutter;
+    .repl-wrapper {
+        .repl {
+            background: $color-8;
+            color: $color-2;
+            @extend .zeta;
+            padding: $gutter-small $gutter-mid;
+            white-space: pre;
+            word-wrap: initial;
+            overflow: auto;
+            margin: 0;
+        }
+    }
+}
+
+.section-title {
+    text-align: center;
+}
+
+.row-why {
+    margin-top: $column-gutter*2;
+}
+
+.row-success-header,
+.row-resources,
+.row-footer {
+    .columns {
+        margin: $column-gutter*2 0 $gutter-mid 0;
+    }
+}
+
+.row-footer {
+    text-align: center;
+}

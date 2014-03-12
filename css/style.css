@@ -585,7 +585,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 80em;
+  max-width: 68.75em;
   *zoom: 1;
 }
 /* line 121, ../scss/foundation/foundation/components/_global.scss */
@@ -1695,7 +1695,7 @@ pre code {
  */
 /* line 515, ../scss/typeplate/_typeplate.scss */
 html {
-  font: 400 100%/1.5 "proxima-nova", "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 100%/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* line 523, ../scss/typeplate/_typeplate.scss */
@@ -1718,91 +1718,92 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
   line-height: 1;
   margin-top: 0;
+  font-family: "Lily Script One", cursive;
 }
 
-/* line 572, ../scss/typeplate/_typeplate.scss */
+/* line 573, ../scss/typeplate/_typeplate.scss */
 .tera {
   font-size: 90px ;
   font-size: 5.625rem ;
   margin-bottom: 0.26667rem;
 }
 
-/* line 572, ../scss/typeplate/_typeplate.scss */
+/* line 573, ../scss/typeplate/_typeplate.scss */
 .giga {
   font-size: 72px ;
   font-size: 4.5rem ;
   margin-bottom: 0.33333rem;
 }
 
-/* line 572, ../scss/typeplate/_typeplate.scss */
+/* line 573, ../scss/typeplate/_typeplate.scss */
 .mega {
   font-size: 60px ;
   font-size: 3.75rem ;
   margin-bottom: 0.4rem;
 }
 
-/* line 572, ../scss/typeplate/_typeplate.scss */
+/* line 573, ../scss/typeplate/_typeplate.scss */
 .alpha, h1 {
   font-size: 48px ;
   font-size: 3rem ;
   margin-bottom: 0.5rem;
 }
 
-/* line 572, ../scss/typeplate/_typeplate.scss */
+/* line 573, ../scss/typeplate/_typeplate.scss */
 .beta, h2 {
   font-size: 36px ;
   font-size: 2.25rem ;
   margin-bottom: 0.66667rem;
 }
 
-/* line 572, ../scss/typeplate/_typeplate.scss */
+/* line 573, ../scss/typeplate/_typeplate.scss */
 .gamma, h3 {
   font-size: 24px ;
   font-size: 1.5rem ;
   margin-bottom: 1rem;
 }
 
-/* line 572, ../scss/typeplate/_typeplate.scss */
+/* line 573, ../scss/typeplate/_typeplate.scss */
 .delta, h4 {
   font-size: 21px ;
   font-size: 1.3125rem ;
   margin-bottom: 1.14286rem;
 }
 
-/* line 572, ../scss/typeplate/_typeplate.scss */
+/* line 573, ../scss/typeplate/_typeplate.scss */
 .epsilon, h5 {
   font-size: 16px ;
   font-size: 1rem ;
   margin-bottom: 1.5rem;
 }
 
-/* line 572, ../scss/typeplate/_typeplate.scss */
-.zeta, h6 {
+/* line 573, ../scss/typeplate/_typeplate.scss */
+.zeta, h6, .header .repl-wrapper .repl {
   font-size: 14px ;
   font-size: 0.875rem ;
   margin-bottom: 1.71429rem;
 }
 
-/* line 572, ../scss/typeplate/_typeplate.scss */
+/* line 573, ../scss/typeplate/_typeplate.scss */
 .small {
   font-size: 12px ;
   font-size: 0.75rem ;
   margin-bottom: 2rem;
 }
 
-/* line 572, ../scss/typeplate/_typeplate.scss */
+/* line 573, ../scss/typeplate/_typeplate.scss */
 .tiny {
   font-size: 10px ;
   font-size: 0.625rem ;
   margin-bottom: 2.4rem;
 }
 
-/* line 612, ../scss/typeplate/_typeplate.scss */
+/* line 613, ../scss/typeplate/_typeplate.scss */
 p {
   margin: auto auto 24px;
 }
 
-/* line 638, ../scss/typeplate/_typeplate.scss */
+/* line 639, ../scss/typeplate/_typeplate.scss */
 abbr,
 acronym,
 blockquote,
@@ -1823,18 +1824,18 @@ xmp {
   hyphens: none;
 }
 
-/* line 646, ../scss/typeplate/_typeplate.scss */
+/* line 647, ../scss/typeplate/_typeplate.scss */
 pre code {
   white-space: -moz-pre-wrap;
   white-space: pre-wrap;
 }
 
-/* line 651, ../scss/typeplate/_typeplate.scss */
+/* line 652, ../scss/typeplate/_typeplate.scss */
 pre {
   white-space: pre;
 }
 
-/* line 657, ../scss/typeplate/_typeplate.scss */
+/* line 658, ../scss/typeplate/_typeplate.scss */
 code, .codehilite pre {
   white-space: pre;
   font-family: "Source Code Pro", Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
@@ -1848,19 +1849,19 @@ code, .codehilite pre {
  * Extend this object into your markup.
  *
  */
-/* line 673, ../scss/typeplate/_typeplate.scss */
+/* line 674, ../scss/typeplate/_typeplate.scss */
 abbr {
   font-variant: small-caps;
   font-weight: 600;
   text-transform: lowercase;
   color: gray;
 }
-/* line 675, ../scss/typeplate/_typeplate.scss */
+/* line 676, ../scss/typeplate/_typeplate.scss */
 abbr[title]:hover {
   cursor: help;
 }
 
-/* line 689, ../scss/typeplate/_typeplate.scss */
+/* line 690, ../scss/typeplate/_typeplate.scss */
 h1,
 h2,
 h3,
@@ -1871,12 +1872,12 @@ h6 {
   font-weight: 600;
 }
 
-/* line 696, ../scss/typeplate/_typeplate.scss */
+/* line 697, ../scss/typeplate/_typeplate.scss */
 b, strong {
   font-weight: 600;
 }
 
-/* line 705, ../scss/typeplate/_typeplate.scss */
+/* line 706, ../scss/typeplate/_typeplate.scss */
 p + .drop-cap {
   text-indent: 0;
   margin-top: 0;
@@ -1988,7 +1989,7 @@ p + .drop-cap {
  * Extend this object into your custom stylesheet.
  *
  */
-/* line 789, ../scss/typeplate/_typeplate.scss */
+/* line 790, ../scss/typeplate/_typeplate.scss */
 .pull-quote {
   position: relative;
   padding: 1em;
@@ -2144,7 +2145,7 @@ p + .drop-cap {
 
 /* line 10, ../scss/style.scss */
 html, body {
-  background: #f0f5fa;
+  background: #ede6e1;
   height: 100%;
 }
 
@@ -2163,4 +2164,58 @@ a, a:visited {
 /* line 26, ../scss/style.scss */
 a:hover {
   color: #454545;
+}
+
+/* line 32, ../scss/style.scss */
+.top-head {
+  padding-top: 1.875em;
+}
+/* line 35, ../scss/style.scss */
+.top-head .logo img {
+  width: 207px;
+  height: 62px;
+}
+/* line 40, ../scss/style.scss */
+.top-head .sexiness {
+  float: right;
+  width: 253px;
+  height: 18px;
+  margin-top: 0.9375em;
+}
+
+/* line 48, ../scss/style.scss */
+.header {
+  margin-top: 1.875em;
+}
+/* line 51, ../scss/style.scss */
+.header .repl-wrapper .repl {
+  background: #022b36;
+  color: #ddd6d1;
+  padding: 0.46875em 0.9375em;
+  white-space: pre;
+  word-wrap: initial;
+  overflow: auto;
+  margin: 0;
+}
+
+/* line 64, ../scss/style.scss */
+.section-title {
+  text-align: center;
+}
+
+/* line 68, ../scss/style.scss */
+.row-why {
+  margin-top: 3.75em;
+}
+
+/* line 75, ../scss/style.scss */
+.row-success-header .columns,
+.row-resources .columns,
+.row-footer .columns {
+  margin: 3.75em 0 0.9375em 0;
+}
+
+/* line 80, ../scss/style.scss */
+.row-footer {
+  text-align: center;
 }

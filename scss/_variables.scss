@@ -11,7 +11,11 @@ $font-size: 100.0; // percentage value (16 * 112.5% = 18px)
 $font-base: 16 * ($font-size/100); // converts our percentage to a pixel value
 $font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; // Non-font-face font-stack
 
-$custom-font-family: "proxima-nova", "Proxima Nova"; // Custom font-face stack, if set will be added to the $font-family
+$font-header: 'Lily Script One', cursive;
+
+$custom-font-family: 'Open Sans';
+
+//$custom-font-family: "Open Sans"; // Custom font-face stack, if set will be added to the $font-family
 
 //$fixed-font-family: Menlo, Monaco, monospace, 'Courier New', Courier;
 
@@ -193,6 +197,18 @@ $heading-color: $color-black;
 //   style
 
 $color-bg-body: $color-blue-lighter;
+$color-bg-body: #ede6e1;
 $color-border: #c5d3e0;
 $color-border-light: #dae3ec;
 $color-border-dark: $color-blue-dark;
+
+
+// Colors with gradation
+$color-1: #ede6e1;
+$color-2: #ddd6d1;
+$color-3: #93a1a1;
+$color-4: #839496;
+$color-5: #657b82;
+$color-6: #586e75;
+$color-7: #063642;
+$color-8: #022b36;
